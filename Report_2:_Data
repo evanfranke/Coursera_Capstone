@@ -1,0 +1,9 @@
+The data used for this effort will be the collision data published by SDOT, the Seattle Department of Transportation, which includes all collisions recorded from 2004 to 
+May 2020. The data include 37 attributes for each collision, as well as the "severity level" of the collision itself - either an "injury collision" or a "property damage 
+only collision." Attributes include location, intersection type, vehicle and occupant counts, date and time, and environmental conditions.
+
+We will look for the subset of attributes that are reliable predictors of collisions by examining the relationship of each variable to collision severity. Any relationships
+that appear non-random will be used to create a predictive model via machine learning algorithms. From an early review of the available attributes, we expect fields such as
+"ADDRTYPE" (block / intersection / alley), "INCDTTM" (weekdays versus weekends, and commuting times), "ROADCOND" (wet / dry / ice and others), and "LIGHTCOND" (degrees of 
+visibility) will likely be included in the model. There are many other descriptive fields available, but many of these would be difficult to translate into mathematical or 
+categorical variables. The bulk of this effort is expected to be the discovery of which of the available attributes will ultimately be useful for our modeling.
