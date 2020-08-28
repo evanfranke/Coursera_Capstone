@@ -1,0 +1,10 @@
+Report Section 1: Introduction/Business Problem
+
+Knowledge and information, while omnipresent in today's society, are only beneficial if they can be communicated to others and converted to action. One promising area
+is in data associated with traffic accidents. While we are likely decades away from autonomous vehicles dominating our roads, drivers do have more and more information
+resources available to them while operating a vehicle that can enable them to make better informed decisions - decisions that can directly lead to increased safety.
+
+The issue that will be addressed by this project is whether data collected on traffic incidents, when combined with meaningful attributes and characteristics, can be
+translated into predictive models that can be utilized in real time to warn drivers of likely dangerous situations in time to mitigate, or completely avoid, potentially
+dangerous traffic scenarios. These models, if proven even moderately accurate, could readily be integrated into existing end-user mobile device apps, as well as future
+integrated software in vehicle software operating systems.
